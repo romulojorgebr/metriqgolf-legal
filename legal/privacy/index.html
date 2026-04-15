@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade / Privacy Policy — MetriQ Golf</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f9fafb; color: #111; line-height: 1.7; }
+        .lang-bar { background: #1a3a6b; padding: 12px 24px; display: flex; gap: 12px; justify-content: flex-end; }
+        .lang-btn { color: #fff; border: 1px solid rgba(255,255,255,0.4); border-radius: 6px; padding: 4px 14px; cursor: pointer; font-size: 13px; background: transparent; font-weight: 600; }
+        .lang-btn.active { background: rgba(255,255,255,0.2); }
+        .section-lang { display: none; }
+        .section-lang.active { display: block; }
+        .container { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+        .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 40px; }
+        .brand-mark { width: 40px; height: 40px; background: #1a3a6b; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 14px; color: #fff; }
+        .brand-name { font-size: 20px; font-weight: 800; color: #1a3a6b; }
+        h1 { font-size: 30px; font-weight: 900; color: #1a3a6b; margin-bottom: 6px; }
+        .updated { color: #6b7280; font-size: 13px; margin-bottom: 40px; }
+        h2 { font-size: 15px; font-weight: 800; color: #1a3a6b; margin: 36px 0 10px; text-transform: uppercase; letter-spacing: 0.8px; }
+        p { color: #374151; margin-bottom: 12px; }
+        ul { color: #374151; padding-left: 20px; margin-bottom: 12px; }
+        li { margin-bottom: 6px; }
+        a { color: #1a3a6b; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 14px; }
+        th { background: #eef2ff; padding: 8px 12px; text-align: left; font-weight: 700; color: #1a3a6b; border: 1px solid #d1d5db; }
+        td { padding: 8px 12px; border: 1px solid #d1d5db; color: #374151; vertical-align: top; }
+        .card { background: #fff; border: 1px solid #d1d5db; border-radius: 12px; padding: 20px 24px; margin-top: 40px; }
+        .highlight { background: #eef2ff; border-left: 4px solid #1a3a6b; border-radius: 4px; padding: 12px 16px; margin-bottom: 16px; }
+        .divider { border: none; border-top: 2px solid #e5e7eb; margin: 64px 0 40px; }
+        .en-label { display: inline-block; background: #1a3a6b; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+    <div class="lang-bar">
+        <button class="lang-btn active" onclick="setLang('pt')">Português</button>
+        <button class="lang-btn" onclick="setLang('en')">English</button>
+    </div>
+
+    <!-- ═══════════════════════════ PORTUGUÊS ═══════════════════════════ -->
+    <div id="pt" class="section-lang active">
+    <div class="container">
+        <div class="brand">
+            <div class="brand-mark">MQ</div>
+            <span class="brand-name">MetriQ Golf</span>
+        </div>
+
+        <h1>Política de Privacidade</h1>
+        <p class="updated">Versão 2.0 · Última atualização: abril de 2026</p>
+
+        <div class="highlight">
+            <strong>Resumo:</strong> O MetriQ coleta apenas os dados necessários para funcionar. Não vendemos seus dados. Você pode exportar ou excluir tudo a qualquer momento. Esta política cobre os requisitos da <strong>LGPD</strong> (Lei nº 13.709/2018) e do direito dos <strong>EUA</strong> (CCPA/CPRA).
+        </div>
+
+        <h2>1. Quem somos (Controlador)</h2>
+        <p>
+            O controlador dos seus dados pessoais é o <strong>MetriQ Golf</strong> (aplicativo identificado pelo bundle <em>com.x1golf.app</em>).
+            Para exercer seus direitos ou tirar dúvidas, entre em contato com nosso Encarregado de Dados (DPO):
+        </p>
+        <p>📧 <a href="mailto:privacidade@metriqgolf.com">privacidade@metriqgolf.com</a></p>
+
+        <h2>2. Dados que coletamos</h2>
+        <table>
+            <tr><th>Categoria</th><th>Exemplos</th><th>Finalidade</th></tr>
+            <tr><td><strong>Cadastro</strong></td><td>Nome, e-mail, senha (hash), data de nascimento, gênero, papel (atleta/coach)</td><td>Criar e manter sua conta</td></tr>
+            <tr><td><strong>Jogo</strong></td><td>Rounds, tacadas por hoyo, placar, campo, par, distâncias</td><td>Análise de desempenho e handicap</td></tr>
+            <tr><td><strong>Treino</strong></td><td>Sessões de prática, categorias, duração, metas, submetas</td><td>Recomendações personalizadas</td></tr>
+            <tr><td><strong>Localização</strong></td><td>GPS durante a rodada (posição no campo)</td><td>Mostrar distâncias e identificar campo automaticamente</td></tr>
+            <tr><td><strong>Áudio</strong></td><td>Gravações de aulas (somente quando você inicia)</td><td>Análise de aulas por IA com consentimento explícito</td></tr>
+            <tr><td><strong>Voz</strong></td><td>Frases de comando de voz para registro de tacadas</td><td>Reconhecimento de voz (processado via API de terceiro)</td></tr>
+            <tr><td><strong>Dispositivo</strong></td><td>ID do dispositivo, token de push, fuso horário</td><td>Notificações e segurança</td></tr>
+            <tr><td><strong>Uso</strong></td><td>Funcionalidades acessadas, erros técnicos</td><td>Melhorar o aplicativo</td></tr>
+        </table>
+
+        <h2>3. Base legal (LGPD, Art. 7)</h2>
+        <ul>
+            <li><strong>Execução de contrato</strong> — dados de conta e jogo necessários para prestar o serviço</li>
+            <li><strong>Consentimento</strong> — gravação de áudio de aulas, marketing por e-mail (opcional)</li>
+            <li><strong>Interesse legítimo</strong> — segurança da conta, prevenção de fraude, melhoria do produto</li>
+            <li><strong>Cumprimento de obrigação legal</strong> — quando exigido por lei</li>
+        </ul>
+
+        <h2>4. Como usamos seus dados</h2>
+        <ul>
+            <li>Fornecer estatísticas, análises de desempenho e histórico de rounds</li>
+            <li>Gerar recomendações de treino e metas personalizadas</li>
+            <li>Calcular handicap e compará-lo com a progressão ao longo do tempo</li>
+            <li>Permitir que coaches vinculados acompanhem o progresso dos atletas</li>
+            <li>Enviar notificações sobre metas e lembretes de treino (com sua permissão)</li>
+            <li>Processar pagamentos de assinatura (via RevenueCat)</li>
+            <li>Melhorar os modelos de IA de análise de jogo</li>
+        </ul>
+
+        <h2>5. Operadores e sub-processadores</h2>
+        <p>Compartilhamos dados com os seguintes prestadores de serviço, exclusivamente para operar o MetriQ:</p>
+        <table>
+            <tr><th>Empresa</th><th>País</th><th>Finalidade</th><th>Política</th></tr>
+            <tr><td>Supabase Inc.</td><td>EUA</td><td>Banco de dados e autenticação</td><td><a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a></td></tr>
+            <tr><td>Railway Corp.</td><td>EUA</td><td>Hospedagem do servidor backend</td><td><a href="https://railway.app/legal/privacy" target="_blank">railway.app/legal/privacy</a></td></tr>
+            <tr><td>OpenAI, L.L.C.</td><td>EUA</td><td>Análise de IA (insights, transcrição de voz)</td><td><a href="https://openai.com/policies/privacy-policy" target="_blank">openai.com/policies/privacy-policy</a></td></tr>
+            <tr><td>Anthropic, PBC</td><td>EUA</td><td>Análise de IA (coach, análise avançada)</td><td><a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a></td></tr>
+            <tr><td>Groq, Inc.</td><td>EUA</td><td>Inferência de IA de alta velocidade</td><td><a href="https://groq.com/privacy-policy/" target="_blank">groq.com/privacy-policy</a></td></tr>
+            <tr><td>Google LLC</td><td>EUA</td><td>Mapas, geocodificação</td><td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td></tr>
+            <tr><td>Resend, Inc.</td><td>EUA</td><td>Envio de e-mails transacionais</td><td><a href="https://resend.com/privacy" target="_blank">resend.com/privacy</a></td></tr>
+            <tr><td>RevenueCat, Inc.</td><td>EUA</td><td>Gerenciamento de assinaturas</td><td><a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a></td></tr>
+        </table>
+        <p><strong>Não vendemos, alugamos ou monetizamos seus dados com anunciantes ou corretores de dados.</strong></p>
+
+        <h2>6. Transferência internacional de dados</h2>
+        <p>
+            Todos os sub-processadores acima operam nos <strong>Estados Unidos</strong>. Ao usar o MetriQ, você consente com a transferência dos seus dados para os EUA, onde as leis de proteção de dados podem diferir do Brasil. Exigimos contratualmente que esses parceiros mantenham padrões de segurança compatíveis com a LGPD e o GDPR.
+        </p>
+
+        <h2>7. Seus direitos (LGPD, Art. 18)</h2>
+        <p>Você tem direito a:</p>
+        <ul>
+            <li><strong>Confirmação e acesso</strong> — saber se tratamos seus dados e quais são</li>
+            <li><strong>Correção</strong> — corrigir dados incompletos, inexatos ou desatualizados</li>
+            <li><strong>Anonimização, bloqueio ou eliminação</strong> — de dados desnecessários ou tratados em desconformidade</li>
+            <li><strong>Portabilidade</strong> — exportar seus dados em formato legível por máquina (<em>disponível em Você → Meus Dados → Exportar</em>)</li>
+            <li><strong>Eliminação total</strong> — excluir sua conta e todos os dados (<em>disponível em Você → Excluir Conta</em>)</li>
+            <li><strong>Informação sobre compartilhamento</strong> — saber com quais entidades compartilhamos seus dados</li>
+            <li><strong>Revogação do consentimento</strong> — retirar o consentimento dado a qualquer momento, sem prejuízo ao tratamento já realizado</li>
+            <li><strong>Reclamação à ANPD</strong> — peticionar à Autoridade Nacional de Proteção de Dados</li>
+        </ul>
+        <p>Para exercer qualquer direito, envie e-mail para <a href="mailto:privacidade@metriqgolf.com">privacidade@metriqgolf.com</a>. Respondemos em até 15 dias úteis.</p>
+
+        <h2>8. Retenção de dados</h2>
+        <table>
+            <tr><th>Dado</th><th>Período de retenção</th></tr>
+            <tr><td>Conta e perfil</td><td>Até exclusão pelo usuário ou 2 anos após inatividade</td></tr>
+            <tr><td>Dados de rounds e treino</td><td>Enquanto a conta estiver ativa</td></tr>
+            <tr><td>Logs de segurança</td><td>90 dias</td></tr>
+            <tr><td>E-mails transacionais (Resend)</td><td>30 dias nos logs do Resend</td></tr>
+            <tr><td>Dados de processamento de IA (OpenAI/Anthropic)</td><td>Conforme política de cada fornecedor (tipicamente 0–30 dias)</td></tr>
+        </table>
+
+        <h2>9. Segurança</h2>
+        <ul>
+            <li>Comunicação criptografada via HTTPS/TLS em todos os endpoints</li>
+            <li>Senhas armazenadas com hash bcrypt (nunca em texto simples)</li>
+            <li>Tokens de sessão com expiração e revogação</li>
+            <li>Acesso ao banco de dados restrito a servidores autorizados</li>
+        </ul>
+
+        <h2>10. Crianças (COPPA)</h2>
+        <p>
+            O MetriQ é voltado a maiores de 13 anos. Não coletamos intencionalmente dados de crianças menores de 13 anos. Se você acredita que um menor forneceu dados sem consentimento dos pais, entre em contato para remoção imediata.
+        </p>
+        <p>
+            <strong>Para menores entre 13 e 18 anos</strong> no Brasil: o cadastro requer consentimento dos responsáveis legais, conforme o ECA e a LGPD.
+        </p>
+
+        <h2>10a. Decisões Automatizadas e IA (LGPD Art. 20)</h2>
+        <p>
+            Usamos sistemas de inteligência artificial para gerar análises de desempenho, recomendações de treino e insights sobre seu jogo. Estas são <strong>sugestões automatizadas</strong>, não decisões definitivas que produzem efeitos jurídicos sobre você.
+        </p>
+        <p>
+            Você tem o direito de solicitar revisão humana de decisões tomadas unicamente com base em tratamento automatizado. Para solicitar revisão, entre em contato em <a href="mailto:privacidade@metriqgolf.com">privacidade@metriqgolf.com</a>.
+        </p>
+        <p>Não realizamos: pontuação de crédito, decisões de seguro, contratação ou outros usos de IA que afetem significativamente sua vida.</p>
+
+        <h2>10b. Outras Leis Estaduais dos EUA</h2>
+        <p>Residentes dos seguintes estados têm direitos similares aos da CCPA sob suas leis estaduais:</p>
+        <ul>
+            <li>Virgínia — Virginia Consumer Data Protection Act (VCDPA)</li>
+            <li>Colorado — Colorado Privacy Act (CPA)</li>
+            <li>Connecticut — Connecticut Data Privacy Act (CTDPA)</li>
+            <li>Utah — Utah Consumer Privacy Act (UCPA)</li>
+            <li>Texas — Texas Data Privacy and Security Act (TDPSA)</li>
+            <li>Oregon — Oregon Consumer Privacy Act (OCPA)</li>
+            <li>Montana — Montana Consumer Data Privacy Act (MCDPA)</li>
+        </ul>
+
+        <h2>10c. Cookies e Tecnologias Similares</h2>
+        <p>O MetriQ é um aplicativo móvel e não usa cookies HTTP no sentido tradicional. Usamos as seguintes tecnologias de armazenamento local no seu dispositivo:</p>
+        <ul>
+            <li><strong>AsyncStorage:</strong> armazenamento persistente de configurações, preferências e cache.</li>
+            <li><strong>SecureStore:</strong> armazenamento criptografado de credenciais sensíveis (tokens de sessão).</li>
+            <li><strong>Cache HTTP:</strong> armazenamento temporário de respostas da API para suporte offline.</li>
+        </ul>
+        <p>Você pode limpar esses dados desinstalando o aplicativo ou usando as configurações do sistema operacional.</p>
+
+        <h2>11. Notificações push</h2>
+        <p>
+            Você controla as notificações em <em>Você → Notificações</em>. O token de push é armazenado apenas para entrega de notificações que você autorizou e é removido ao deslogar ou excluir a conta.
+        </p>
+        <p>Não usamos notificações para fins publicitários ou promocionais sem seu consentimento explícito.</p>
+
+        <h2>11a. Notificação de Incidentes de Segurança</h2>
+        <p>
+            Em caso de incidente de segurança que possa afetar seus dados pessoais, comunicaremos a você e às autoridades competentes (ANPD no Brasil, autoridades estaduais nos EUA) conforme exigido por lei, em até 72 horas após a constatação do incidente.
+        </p>
+
+        <h2>12. Alterações nesta política</h2>
+        <p>
+            Comunicaremos alterações relevantes via notificação no app ou e-mail com 15 dias de antecedência. O uso continuado após a data de vigência implica aceitação. Mantemos histórico de versões acessível mediante solicitação.
+        </p>
+
+        <div class="card">
+            <h2 style="margin-top:0">Contato — DPO</h2>
+            <p><strong>Encarregado de Proteção de Dados (DPO):</strong> Equipe MetriQ</p>
+            <p>📧 <a href="mailto:privacidade@metriqgolf.com">privacidade@metriqgolf.com</a></p>
+            <p>Para requisições LGPD, inclua no assunto: <em>"LGPD – [tipo de solicitação]"</em></p>
+        </div>
+    </div>
+    </div>
+
+    <!-- ═══════════════════════════ ENGLISH ═══════════════════════════ -->
+    <div id="en" class="section-lang">
+    <div class="container">
+        <div class="brand">
+            <div class="brand-mark">MQ</div>
+            <span class="brand-name">MetriQ Golf</span>
+        </div>
+
+        <span class="en-label">ENGLISH</span>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Version 2.0 · Last updated: April 2026</p>
+
+        <div class="highlight">
+            <strong>Summary:</strong> MetriQ collects only the data needed to operate. We do not sell your data. You can export or delete everything at any time. This policy covers <strong>LGPD</strong> (Brazilian Law No. 13,709/2018), <strong>CCPA/CPRA</strong> (California), and other applicable US state privacy laws.
+        </div>
+
+        <h2>1. Controller</h2>
+        <p>
+            The controller of your personal data is <strong>MetriQ Golf</strong> (app bundle <em>com.x1golf.app</em>).
+            To exercise your rights or ask questions, contact our Data Protection Officer (DPO):
+        </p>
+        <p>📧 <a href="mailto:privacidade@metriqgolf.com">privacidade@metriqgolf.com</a></p>
+
+        <h2>2. Data We Collect</h2>
+        <table>
+            <tr><th>Category</th><th>Examples</th><th>Purpose</th></tr>
+            <tr><td><strong>Account</strong></td><td>Name, email, password (hashed), birth date, gender, role (athlete/coach)</td><td>Create and maintain your account</td></tr>
+            <tr><td><strong>Golf data</strong></td><td>Rounds, hole-by-hole shots, score, course, par, distances</td><td>Performance analysis and handicap</td></tr>
+            <tr><td><strong>Training</strong></td><td>Practice sessions, categories, duration, goals, sub-goals</td><td>Personalized recommendations</td></tr>
+            <tr><td><strong>Location</strong></td><td>GPS during round (on-course position)</td><td>Show distances and auto-identify course</td></tr>
+            <tr><td><strong>Audio</strong></td><td>Lesson recordings (only when you initiate)</td><td>AI lesson analysis with explicit consent</td></tr>
+            <tr><td><strong>Voice</strong></td><td>Voice command phrases for shot logging</td><td>Voice recognition (processed via third-party API)</td></tr>
+            <tr><td><strong>Device</strong></td><td>Device ID, push token, timezone</td><td>Notifications and security</td></tr>
+            <tr><td><strong>Usage</strong></td><td>Features accessed, technical errors</td><td>Improve the app</td></tr>
+        </table>
+
+        <h2>3. Legal Bases</h2>
+        <ul>
+            <li><strong>Contract performance</strong> — account and golf data needed to deliver the service</li>
+            <li><strong>Consent</strong> — audio recording of lessons, marketing emails (optional)</li>
+            <li><strong>Legitimate interest</strong> — account security, fraud prevention, product improvement</li>
+            <li><strong>Legal obligation</strong> — when required by law</li>
+        </ul>
+
+        <h2>4. How We Use Your Data</h2>
+        <ul>
+            <li>Provide statistics, performance analysis and round history</li>
+            <li>Generate training recommendations and personalized goals</li>
+            <li>Calculate handicap and track progression over time</li>
+            <li>Allow linked coaches to monitor athlete progress</li>
+            <li>Send goal notifications and training reminders (with permission)</li>
+            <li>Process subscription payments (via RevenueCat)</li>
+            <li>Improve AI golf-analysis models</li>
+        </ul>
+
+        <h2>5. Sub-Processors</h2>
+        <p>We share data with the following service providers, solely to operate MetriQ:</p>
+        <table>
+            <tr><th>Company</th><th>Country</th><th>Purpose</th><th>Privacy Policy</th></tr>
+            <tr><td>Supabase Inc.</td><td>USA</td><td>Database and authentication</td><td><a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a></td></tr>
+            <tr><td>Railway Corp.</td><td>USA</td><td>Backend server hosting</td><td><a href="https://railway.app/legal/privacy" target="_blank">railway.app/legal/privacy</a></td></tr>
+            <tr><td>OpenAI, L.L.C.</td><td>USA</td><td>AI analysis (insights, voice transcription)</td><td><a href="https://openai.com/policies/privacy-policy" target="_blank">openai.com/policies/privacy-policy</a></td></tr>
+            <tr><td>Anthropic, PBC</td><td>USA</td><td>AI analysis (coaching, advanced analysis)</td><td><a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a></td></tr>
+            <tr><td>Groq, Inc.</td><td>USA</td><td>High-speed AI inference</td><td><a href="https://groq.com/privacy-policy/" target="_blank">groq.com/privacy-policy</a></td></tr>
+            <tr><td>Google LLC</td><td>USA</td><td>Maps and geocoding</td><td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td></tr>
+            <tr><td>Resend, Inc.</td><td>USA</td><td>Transactional email delivery</td><td><a href="https://resend.com/privacy" target="_blank">resend.com/privacy</a></td></tr>
+            <tr><td>RevenueCat, Inc.</td><td>USA</td><td>Subscription management</td><td><a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a></td></tr>
+        </table>
+        <p><strong>We do not sell, rent, or monetize your data with advertisers or data brokers.</strong></p>
+
+        <h2>6. Your Rights</h2>
+        <p>Depending on your location, you may have the following rights:</p>
+        <ul>
+            <li><strong>Access</strong> — know what data we hold about you</li>
+            <li><strong>Correction</strong> — fix inaccurate or incomplete data</li>
+            <li><strong>Deletion</strong> — delete your account and all associated data (<em>available in You → Delete Account</em>)</li>
+            <li><strong>Portability</strong> — export your data in machine-readable format (<em>You → My Data → Export</em>)</li>
+            <li><strong>Opt-out of sale</strong> — we do not sell personal information; this right is inherently satisfied</li>
+            <li><strong>Revoke consent</strong> — withdraw consent at any time without prejudice to prior processing</li>
+        </ul>
+
+        <h2>7. California Residents — CCPA / CPRA</h2>
+        <p>California residents have additional rights under the CCPA/CPRA:</p>
+        <ul>
+            <li><strong>Right to Know:</strong> You may request disclosure of personal information we collect, use, disclose, and sell/share.</li>
+            <li><strong>Right to Delete:</strong> You may request deletion of personal information we collected from you.</li>
+            <li><strong>Right to Correct:</strong> You may request correction of inaccurate personal information.</li>
+            <li><strong>Right to Opt-Out of Sale/Sharing:</strong> <strong>MetriQ does not sell or share personal information for cross-context behavioral advertising.</strong></li>
+            <li><strong>Right to Limit Use of Sensitive Personal Information:</strong> We use sensitive PI only to provide the service.</li>
+            <li><strong>Non-Discrimination:</strong> We will not discriminate against you for exercising your privacy rights.</li>
+        </ul>
+        <p>
+            <strong>Categories of personal information collected (past 12 months):</strong><br>
+            Identifiers, Internet/network activity, Geolocation data, Audio/electronic data (with consent), Inferences drawn from the above.
+        </p>
+        <p>
+            To submit a California privacy request: <a href="mailto:privacidade@metriqgolf.com">privacidade@metriqgolf.com</a> with subject line <em>"CCPA Request – [type]"</em>.
+        </p>
+
+        <h2>8. Other US State Privacy Laws</h2>
+        <p>
+            Residents of Virginia (VCDPA), Colorado (CPA), Connecticut (CTDPA), Utah (UCPA), and other states with active privacy laws have rights similar to those described above. Contact us at the email below to exercise any of these rights.
+        </p>
+
+        <h2>9. Children (COPPA)</h2>
+        <p>
+            MetriQ is intended for users 13 and older. We do not knowingly collect personal information from children under 13. If you believe a child has provided information without parental consent, contact us for immediate removal.
+        </p>
+
+        <h2>10. Data Retention</h2>
+        <table>
+            <tr><th>Data Type</th><th>Retention Period</th></tr>
+            <tr><td>Account and profile</td><td>Until deleted by user or 2 years after inactivity</td></tr>
+            <tr><td>Golf and training data</td><td>While the account is active</td></tr>
+            <tr><td>Security logs</td><td>90 days</td></tr>
+            <tr><td>Transactional emails (Resend)</td><td>30 days in Resend logs</td></tr>
+            <tr><td>AI processing data (OpenAI/Anthropic)</td><td>Per each vendor's policy (typically 0–30 days)</td></tr>
+        </table>
+
+        <h2>11. Security</h2>
+        <ul>
+            <li>HTTPS/TLS encryption on all endpoints</li>
+            <li>Passwords stored as bcrypt hashes (never in plain text)</li>
+            <li>Session tokens with expiration and revocation</li>
+            <li>Database access restricted to authorized servers</li>
+            <li>Daily automated database backups</li>
+            <li>Periodic source code security audits</li>
+        </ul>
+
+        <h2>11a. Automated Decisions and AI</h2>
+        <p>
+            We use AI systems to generate performance analysis, training recommendations, and insights about your game. These are <strong>automated suggestions</strong>, not definitive decisions producing legal effects on you.
+        </p>
+        <p>You have the right to request human review of decisions made solely on automated processing. Contact <a href="mailto:privacidade@metriqgolf.com">privacidade@metriqgolf.com</a>.</p>
+        <p>We do NOT perform: credit scoring, insurance decisions, hiring, or other AI uses that significantly affect your life.</p>
+
+        <h2>11b. Cookies and Similar Technologies</h2>
+        <p>MetriQ is a mobile app and does not use HTTP cookies in the traditional sense. We use local storage technologies on your device:</p>
+        <ul>
+            <li><strong>AsyncStorage:</strong> persistent storage of settings, preferences, and cache.</li>
+            <li><strong>SecureStore:</strong> encrypted storage of sensitive credentials (session tokens).</li>
+            <li><strong>HTTP Cache:</strong> temporary storage of API responses for offline support.</li>
+        </ul>
+
+        <h2>11c. Push Notifications</h2>
+        <p>You control notifications in <em>You → Notifications</em>. The push token is stored only to deliver notifications you authorized and is removed when you log out or delete your account.</p>
+
+        <h2>11d. Security Incident Notification</h2>
+        <p>
+            In case of a security incident affecting your personal data, we will notify you and competent authorities (ANPD in Brazil, US state authorities) as required by law, within 72 hours of discovery.
+        </p>
+
+        <h2>12. Changes to This Policy</h2>
+        <p>
+            We will notify you of material changes via in-app notification or email at least 15 days before the effective date. Continued use after the effective date constitutes acceptance.
+        </p>
+
+        <div class="card">
+            <h2 style="margin-top:0">Contact — DPO</h2>
+            <p><strong>Data Protection Officer:</strong> MetriQ Team</p>
+            <p>📧 <a href="mailto:privacidade@metriqgolf.com">privacidade@metriqgolf.com</a></p>
+            <p>For privacy requests, use subject line: <em>"Privacy Request – [type]"</em></p>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        function setLang(lang) {
+            document.querySelectorAll('.section-lang').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById(lang).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
